@@ -883,7 +883,7 @@ S2.define('select2/results',[
     // Check if there are any selected options
     if ($selected.length > 0) {
       // If there are selected options, highlight the first
-      $selected.first().trigger('mouseenter');
+      // $selected.first().trigger('mouseenter'); // azg: fix for multiselect 25-12-17
     } else {
       // If there are no selected options, highlight the first option
       // in the dropdown
